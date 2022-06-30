@@ -4,22 +4,72 @@ body{
     display: flex;
     flex-direction: column;
 }
-.top{
-    display: flex;
-    justify-content: space-between;
-}
 
-ul{
-    list-style: none;
-}
 
 .header{
     display: flex;
+    flex-direction: column;
     background:#1F2937;
     color: white;
-    flex: 1;
+    padding-bottom: 100px;
     
       
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    gap: 18px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.hero-text{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.button1{
+    padding: 6px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    width:90px;
+    background: #3882F6;
+    color: white;
+    
+
 }
 
 .quote{
@@ -28,13 +78,6 @@ ul{
     background:#E5E7EB ;
 }
 
-button{
-    display: flex;
-    flex: 1;
-    background: #3882F6;
-    color: white;
-  
-}
 
 .sign-up{
     display: flex;
@@ -78,4 +121,16 @@ button{
 
 .header-down{
     font-weight: bold;
+}
+
+.left{
+    margin-left: 700px;
+}
+.right{
+    margin-right: 700px;
+}
+
+.image{
+    display: flex;
+   width: 500px;
 }
