@@ -3,6 +3,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -142,17 +143,22 @@ a{
  
 }
 
-.card{
-    padding: 24px;
+.sign-up-text{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card{
+    padding: 30px;
+    display: flex;
     align-items: center;
     border-radius: 8px;
     color: white;
     background: #3882F6;
-    flex-basis: 0;
-    width: 1000px;
+    width: 900px;
    height: 60px;
+   gap: 250px;
+   
     
 
 }
@@ -168,9 +174,12 @@ a{
 }
 
 .button2{
+    background: #3882F6;
     border-radius: 8px;
     border-color: white;
-    width:120px;
+    color: white;
+    height: 32px;
+    width:100px;
 
 }
 
@@ -179,12 +188,12 @@ a{
 }
 
 .left{
-    padding-left: 700px;
+    padding-left: 800px;
     display: flex;
     flex-direction: column;
 }
 .right{
-    padding-right: 700px;
+    padding-right: 800px;
     display: flex;
     flex-direction: column;
 }
