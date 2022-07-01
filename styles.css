@@ -19,6 +19,7 @@ body{
 .top{
     display: flex;
     justify-content: space-between;
+    gap: 8px;
     padding-top: 18px;
 }
 
@@ -95,7 +96,15 @@ a{
 }
 
 .quote-text{
+    font-style: italic;
+    max-width: 400px;
 
+}
+
+.quote-autor{
+    display: flex;
+    font-weight: bold;
+    padding-left: 400px;
 }
 
 .button1{
@@ -114,8 +123,12 @@ a{
 
 .quote{
     display: flex;
+    flex-direction: column;
     flex: 1;
     background:#E5E7EB ;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 
